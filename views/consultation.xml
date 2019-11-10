@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+
+    <record id="consultation_free_view" model="ir.ui.view">
+<field name="name">consultation Form</field>
+<field name="model">consultations.fiches</field>
+<field name="arch" type="xml">
+          <form string="consultation-">
+
+                <sheet>
+
+
+
+                                <field name="consultation_id"/>
+                                <field name="diagnostique"/>
+
+
+                </sheet>
+
+
+    </form>
+</field>
+</record>
+
+
+    </data>
+</odoo>
